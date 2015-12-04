@@ -4,11 +4,12 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
-  <remote  name="ColdFusionROM"
+  <remote name="ColdFusionROM"
            fetch="https://github.com/ColdFusionROM/" />
   <remote  name="cm"
            fetch="https://github.com/cyanogenmod/" />
-  <default revision="refs/tags/android-6.0.0_r26"
+           <default revision="refs/tags/android-6.0.0_r26"
+           remote="aosp"
            sync-j="4" />
 
 
